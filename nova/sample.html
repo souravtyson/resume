@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .section-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-top: 20px;
+            color: #2c3e50;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 5px;
+        }
+        .sub-section-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            display: inline-block;
+            width: 150px;
+            color: #34495e;
+        }
+        .sub-section-content {
+            display: inline-block;
+            width: calc(100% - 150px);
+            color: #7f8c8d;
+        }
+        .job-title {
+            font-weight: bold;
+            color: #2980b9;
+        }
+        .company {
+            font-style: italic;
+            color: #8e44ad;
+        }
+        .location {
+            font-style: italic;
+            color: teal;
+        }
+        .achievements {
+            margin-left: 20px;
+            color: #2c3e50;
+        }
+        .achievements li {
+            margin-bottom: 5px;
+        }
+        @media (max-width: 600px) {
+            .sub-section-title, .sub-section-content {
+                display: block;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="section-title">TECHNICAL SKILLS</div>
+        <div>
+            <div class="sub-section-title">Operating System</div>
+            <div class="sub-section-content">Centos, Ubuntu, Windows</div>
+        </div>
+        <div>
+            <div class="sub-section-title">Technology</div>
+            <div class="sub-section-content">Git, Elasticsearch, Logstash, Kibana, Filebeat</div>
+        </div>
+        <div>
+            <div class="sub-section-title">Programming</div>
+            <div class="sub-section-content">React JS, Javascript, Ajax, Jquery, Java, Python, HTML, CSS, JSON</div>
+        </div>
+    </div>
+    <div>
+        <div class="section-title">WORK EXPERIENCE</div>
+        <div>
+            <div class="job-title">Software Engineer</div>
+            <div class="company">Appnomic System Pvt. Ltd.</div>
+            <div class="location">Bangalore, India</div>
+            <div>05/2020 - Present</div>
+            <p>Product based company that is working in APM domain, whose product HEAL delivers AIOps straight to client application stack.</p>
+            <ul class="achievements">
+                <li>Development of <strong>B2B WhatsApp plugin</strong> to send alerts to Business WhatsApp number & integration of <strong>opt-ins</strong> functionality using <strong>Webhook API</strong>.</li>
+                <li>Creation of chat based UI to show messages sent by the Business WhatsApp number & alerts being sent to the consumer from the application.</li>
+                <li>Development of API to run the automation scripts & download reports based on user selection & consuming API to show the data on the UI.</li>
+                <li>Developed <strong>ETL connector</strong> for the Dot Net metrics to bridge the gap between the client and organization using <strong>Logstash pipelines, Elasticsearch</strong> and <strong>wmiBeat</strong>.</li>
+            </ul>
+        </div>
+        <div>
+            <div class="job-title">Technology Analyst</div>
+            <div class="company">Infosys Ltd. (Client - Sharjah Islamic Bank)</div>
+            <div class="location">Pune, India</div>
+            <div>01/2019 - 05/2020</div>
+            <ul class="achievements">
+                <li>Creation of reusable components using <strong>React JS</strong> for different banking modules like transfer, accounts.</li>
+                <li>Consuming the API from the back-end and binding the data to the user interface.</li>
+                <li>Played a key role in the design and implementation of <strong>low-latency, high-availability and high-performance</strong> applications.</li>
+                <li>Coordinated with key stakeholders to identify functional and technical requirements & translate into design specific.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

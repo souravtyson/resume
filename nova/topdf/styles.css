@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    background: #fff;
+    padding: 20px 0px 20px 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    padding: 0px 25px 20px 0px;
+    border-color: black;
+    font-size: 0.8em;
+}
+
+.black-box {
+    background-color: #404664;
+    width: 35px;
+    height: 60px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.teal-box {
+    background-color: #3f8e86;
+    min-width: 35px;
+    height: 60px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.space-box {
+    background-color: white;
+    width: 35px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.profile-info h1 {
+    text-align: left;
+    font-size: 3em;
+    color: #404664;
+}
+
+.profile-info h2 {
+    text-align: left;
+    font-size: 1.8em;
+    color: teal;
+}
+
+.profile-info p {
+    text-align: left;
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.profile-pic {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-pic img {
+    border: 4px solid green;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+}
+
+.contact-info {
+    flex: 1;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 15px;
+}
+
+.contact-info a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.contact-info a:visited { 
+    color: black;
+}
+
+.contact-info a:active { 
+    color: black;
+}
+
+.font-color {
+    color: black;
+}
+
+
+/* Icons for email, phone, location, LinkedIn */
+.contact-info i {
+    margin-left: 10px;
+    color: #333;
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1,
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.skills, .works, .education, .awards-honours, .interests {
+    display: flex;
+    padding-right: 25px;
+}
+
+.margin-bottom-16 {
+    margin-bottom: 16px;
+}
+
+.margin-bottom-5 {
+    margin-bottom: 5px;
+}
+
+.font-size-award-honours-description {
+    font-size: 0.8em;
+}
+
+.skills h3 {
+    text-align: left;
+    font-size: 2em;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.skill-section-fit{
+    width: 100%;
+}
+
+/* .skills-container {
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 47% 47%;
+    row-gap: 10px;
+    column-gap: 30px;
+} */
+.skills-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 38px;
+    row-gap: 7px;
+}
+
+.skill-category {
+    display: flex;
+    width: 47%;
+    justify-content: space-between;
+    align-items: baseline;
+    column-gap: 60px;
+}
+
+.skill-title {
+    width: 30%;
+}
+.skill-value {
+    width: 65%;
+}
+
+.skill-category strong {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.skill-category p {
+    margin: 0;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.section-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #2c3e50;
+    padding-bottom: 5px;
+}
+
+.job-details {
+    width: 100%;
+}
+
+.job-details-font-size, .certificate-details-font-size {
+    font-size: 14px;
+}
+
+.job-title {
+    font-weight: bold;
+    color: #1c1f20;
+    font-size: 19px
+}
+.company {
+    font-weight: 400;
+    font-size: 19px;
+}
+.location-duration {
+    font-style: italic;
+    color: teal;
+    font-size: 11px;
+    display: flex;
+    font-weight: 550;
+    justify-content: space-between;
+}
+.company-description p {
+    margin: 0px;
+    font-style: italic;
+    color: grey;
+    font-size: 0.8em;
+}
+.achievements {
+    padding-left: 18px;
+    color: #2c3e50;
+}
+.achievements li {
+    margin-bottom: 5px;
+}
+.achievements li::marker {
+    color: teal;
+}
+
+.margin-0 {
+    margin: 0px;
+}
+.width-100 {
+    width: 100%
+}
+.awards-honours-orientation {
+ flex-wrap: wrap;
+ margin: 0px 0px 0px 14px;   
+}
+.margin-right-115 {
+    margin-right: 115px;
+}
+
+.interests-details {
+    border: 1px solid black;
+    padding: 2px 8px;
+    margin-right: 5px;
+    border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+    .sub-section-title, .sub-section-content {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .skill-category {
+        width: 100%; /* Make each skill category take full width on smaller screens */
+        flex-direction: column; /* Stack titles and values vertically */
+        align-items: flex-start;
+    }
+
+    .skill-title, .skill-value {
+        width: 100%;
+    }
+
+    .skills-container {
+        column-gap: 0;
+        row-gap: 15px;
+    }
+
+    .header-content {
+        justify-content: center;
+
+        flex-direction: column;
+    }
+
+    header {
+        margin: 4px;
+    }
+}

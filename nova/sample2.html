@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optimized Resume</title>
+
+    <!-- External CSS for better structure and caching -->
+    <link rel="stylesheet" href="styles2.css">
+
+    <style>
+        /* General Body Styling */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Header Styling */
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border-bottom: 2px solid #ccc;
+        }
+
+        .profile-pic {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            margin-right: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        header p {
+            margin: 0;
+            color: #666;
+        }
+
+        /* Main Content */
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        section h2 {
+            font-size: 1.5em;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+
+        /* Work Experience */
+        article {
+            margin-bottom: 15px;
+        }
+
+        article h3 {
+            font-size: 1.2em;
+            margin: 0 0 5px;
+        }
+
+        article p {
+            margin: 0;
+            color: #666;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border-top: 2px solid #ccc;
+        }
+
+        /* Additional Utility Classes */
+        .skills-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills-list li {
+            display: inline-block;
+            margin-right: 15px;
+            font-weight: bold;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .profile-pic {
+                margin: 0 0 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="images/profile.jpg" alt="Profile Image" class="profile-pic">
+        <div>
+            <h1>Your Name</h1>
+            <p>Contact details | LinkedIn | GitHub</p>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Technical Skills -->
+        <section>
+            <h2>Technical Skills</h2>
+            <ul class="skills-list">
+                <li>Java</li>
+                <li>Spring Boot</li>
+                <li>Hibernate</li>
+                <li>Redis</li>
+                <li>Docker</li>
+                <!-- Add more skills -->
+            </ul>
+        </section>
+
+        <!-- Work Experience -->
+        <section>
+            <h2>Work Experience</h2>
+            <article>
+                <h3>Senior Software Engineer</h3>
+                <p>Company ABC | Jan 2020 - Present</p>
+                <p>Responsible for developing and optimizing microservices using Spring Boot, Redis, Docker, and Kafka. Led a team of 5 engineers in building distributed systems.</p>
+            </article>
+            <article>
+                <h3>Software Developer</h3>
+                <p>Company XYZ | Aug 2016 - Dec 2019</p>
+                <p>Worked on developing backend services using Java and Spring Framework. Improved system performance by 30% through code optimization and caching strategies.</p>
+            </article>
+        </section>
+
+        <!-- Education -->
+        <section>
+            <h2>Education</h2>
+            <article>
+                <h3>Bachelor of Technology in Computer Science</h3>
+                <p>University Name | 2012 - 2016</p>
+                <p>Graduated with First Class Honors. Key subjects included Data Structures, Algorithms, and Distributed Systems.</p>
+            </article>
+        </section>
+
+        <!-- Honors and Certificates -->
+        <section>
+            <h2>Honors and Certificates</h2>
+            <ul class="skills-list">
+                <li>Oracle Certified Java Programmer</li>
+                <li>Docker Certified Associate</li>
+                <!-- Add more certifications -->
+            </ul>
+        </section>
+
+        <!-- Interests -->
+        <section>
+            <h2>Interests</h2>
+            <ul class="skills-list">
+                <li>Artificial Intelligence</li>
+                <li>Blockchain</li>
+                <li>Open Source Contributions</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
